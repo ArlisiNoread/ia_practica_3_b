@@ -1,0 +1,36 @@
+# Archivo de reglas.
+# Las lineas que empiecen con # se consideran comentarios.
+# Se analizaran textualmente palabra por palabra
+# utilizando palabras reservadas: {IF, AND, THEN}
+# para determinar las cadenas que vamos a evaluar.
+
+IF tiene pelo THEN es un mamífero
+
+IF da leche THEN es un mamífero
+
+IF tiene plumas THEN es un ave
+
+IF vuela AND pone huevo THEN es un ave
+
+IF come carne THEN es un carnívoro
+
+IF tiene dientes afilados AND tiene garras AND tiene vista potente THEN es un carnívoro
+
+IF es un mamífero AND tiene pezuñas THEN es un ungulado
+
+IF es un mamífero AND rumia THEN es un ungulado
+
+IF es un mamífero AND es un carnívoro AND tiene color rojizo AND tiene manchas negras THEN es un leopardo
+
+IF es un mamífero AND es un carnívoro AND tiene color rojizo AND tiene rayas negras THEN es un tigre
+
+IF es un ungulado AND tiene cuello largo AND tiene manchas negras THEN es una jirafa
+
+IF es un ungulado AND tiene rayas negras THEN es una cebra
+
+IF es un ave AND no vuela AND tiene cuello largo AND es blanco y negro THEN es un avestruz
+
+IF es un ave AND no vuela AND nada AND es blanco y negro THEN es un pingüino
+
+IF es un ave AND vuela THEN es un albatros
+
